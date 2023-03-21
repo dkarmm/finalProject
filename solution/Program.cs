@@ -31,7 +31,7 @@ void ShowArray(string[] array)
         Console.Write($"{array[i]} ");
     }
 }
-string [] GetResultArray(string[] array)
+string[] GetResultArray(string[] array)
 {
     int resultArraySize = 0;
     int indexForArrayResult = 0;
