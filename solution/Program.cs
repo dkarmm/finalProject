@@ -34,7 +34,7 @@ void ShowArray(string[] array)
 string [] GetResultArray(string[] array)
 {
     int resultArraySize = 0;
-    int indexForArrayWithIndex = 0;
+    int indexForArrayResult = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
@@ -47,8 +47,8 @@ string [] GetResultArray(string[] array)
     {
         if (array[i].Length <= 3)
         {
-            arrayResult[indexForArrayWithIndex] = array[i];
-            indexForArrayWithIndex++;
+            arrayResult[indexForArrayResult] = array[i];
+            indexForArrayResult++;
         }
     }
     return arrayResult;
